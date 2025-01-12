@@ -262,7 +262,7 @@
 
 .dr-vision {
     /* background-image: url(../assets/comma.png); */
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -301,4 +301,102 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 4px;
+}
+
+.news-m {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.news-desc-m {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.news-parent {
+    /* padding: 48px; */
+    margin: 24px 20px;
+
+}
+
+.news-title-p {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(43, 42, 42, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.news-title-p2 {
+    flex-direction: row-reverse;
+    padding-right: 48px;
+    margin-top: 24PX ;
+    margin-bottom: 24px ;
+}
+
+.news-img {
+    padding: 48px 0px 48px 48px;
+}
+
+.news-title {
+    padding: 56px 48px 48px 32px;
+}
+
+.news-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-desc {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-btn {
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
 }
