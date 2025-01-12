@@ -447,9 +447,10 @@
 
 }
 
-.donate-btn:hover{
-background-color: #C6E4D6;
+.donate-btn:hover {
+    background-color: #C6E4D6;
 }
+
 .donate-more {
     display: flex;
     text-align: center;
@@ -476,6 +477,12 @@ background-color: #C6E4D6;
     background-color: #e0dfd9b7;
 }
 
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .done-btnn {
     border: none;
     cursor: pointer;
@@ -495,8 +502,81 @@ background-color: #C6E4D6;
 
 }
 
-.cont {
+.subscribe {
+    text-align: center;
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+    background: rgb(198, 228, 214);
+    margin-top: 80px;
+}
+
+.subscribe-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.subscribe-sub-title {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.mail {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 24px;
+
+}
+
+#mail {
+    border-radius: 8px 0px 0px 8px;
+    padding: 18px 40px 18px 40px;
+    background: rgb(255, 255, 255);
+    border: none;
+    flex: .5;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#submit {
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+}
+
+.msg {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
 }
