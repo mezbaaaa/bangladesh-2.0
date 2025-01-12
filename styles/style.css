@@ -2,14 +2,14 @@
 
 /* font-family: "Fira Sans", serif; */
 * {
-    margin: 0px;
-    
+    /* margin: 0px; */
+
 }
 
 .title-p {
     display: flex;
     justify-content: space-between;
-    padding: 24px 160px 24px 160px;
+    /* padding: 24px 160px 24px 160px; */
 }
 
 .title-desc {
@@ -34,6 +34,7 @@
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
+    gap: 48;
     padding: 15px 30px 15px 30px;
 }
 
@@ -85,4 +86,219 @@
     text-align: left;
     border: none;
     margin-top: 24px;
+}
+
+.pillars-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+    margin-top: 80px;
+}
+
+.pillars-parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    gap: 24px;
+    padding: 24px;
+    margin-top: 32px;
+}
+
+.pillars-info {
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.info-title {
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.info-desc {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-title-m {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.vision-desc-m {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.vision-main {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.color-b {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.color-g {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.color-o {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.vision-parent {
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+
+.vision-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-desc {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-btn-b {
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    cursor: pointer;
+}
+
+.vision-btn-g {
+    border: none;
+    cursor: pointer;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+
+.vision-btn-o {
+    border: none;
+    cursor: pointer;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
+
+.dr-vision {
+    /* background-image: url(../assets/comma.png); */
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    /* background: rgb(255, 255, 255); */
+    margin-top: 32px;
+    padding: 24px 48px;
+}
+
+.dr-about {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.dr-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.dr-desc {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 4px;
 }
