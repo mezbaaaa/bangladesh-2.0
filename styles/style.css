@@ -275,7 +275,7 @@
 .dr-vision {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 30px 5px ;
+    background-position: 30px 5px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -340,6 +340,7 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .news-title-p {
@@ -376,7 +377,6 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: left;
-    /* margin-top: 56px; */
 }
 
 .news-a {
