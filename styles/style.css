@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* font-family: "Fira Sans", serif; */
-*{
+* {
     margin: 0px;
 }
+
 .title-p {
     display: flex;
     justify-content: space-between;
-
+    /* padding: 24px 160px 24px 160px; */
+    margin: 80px;
+    margin-top: 20px;
 }
 
 .title-desc {
@@ -41,8 +44,7 @@
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
     background: #C6E4D6;
-    margin: 80px 0px;
-    gap: 64px;
+    margin: 80px;
 }
 
 .banner-sub-title {
@@ -86,6 +88,10 @@
     cursor: pointer;
 }
 
+.pillars {
+    margin: 80px;
+}
+
 .pillars-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -103,7 +109,6 @@
     justify-content: space-evenly;
     margin-top: 32px;
     gap: 24px;
-    padding: 24px;
     margin-top: 32px;
 }
 
@@ -135,6 +140,10 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.vision {
+    margin: 80px;
 }
 
 .vision-title-m {
@@ -201,6 +210,7 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 24px;
 }
 
 .vision-desc {
@@ -211,6 +221,7 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 12px;
 }
 
 .vision-btn-b {
@@ -226,6 +237,7 @@
     background: rgb(84, 144, 245);
     border: none;
     cursor: pointer;
+    margin-top: 24px;
 }
 
 .vision-btn-g {
@@ -241,6 +253,7 @@
     text-align: left;
     border-radius: 8px;
     background: rgb(9, 161, 92);
+    margin-top: 24px;
 }
 
 .vision-btn-o {
@@ -256,15 +269,16 @@
     text-align: left;
     border-radius: 8px;
     background: rgb(255, 194, 57);
+    margin-top: 24px;
 }
 
 .dr-vision {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
+    background-position: 30px 5px ;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    /* background: rgb(255, 255, 255); */
     margin-top: 32px;
     padding: 24px 48px;
 }
@@ -301,6 +315,10 @@
     margin-top: 4px;
 }
 
+.news {
+    margin: 80px;
+}
+
 .news-m {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -310,6 +328,7 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 80px;
+
 }
 
 .news-desc-m {
@@ -321,12 +340,6 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 24px;
-}
-
-.news-parent {
-    /* padding: 48px; */
-    margin: 24px 20px;
-
 }
 
 .news-title-p {
@@ -365,7 +378,8 @@
     text-align: left;
     /* margin-top: 56px; */
 }
-.news-a{
+
+.news-a {
     margin-top: 12px;
 }
 
@@ -405,6 +419,10 @@
     border: none;
     cursor: pointer;
     margin-top: 45px;
+}
+
+.donate {
+    margin: 80px;
 }
 
 .donate-titale {
@@ -514,6 +532,7 @@
     padding: 80px 100px 80px 100px;
     background: rgb(198, 228, 214);
     margin-top: 80px;
+    margin: 80px;
 }
 
 .subscribe-title {
@@ -589,7 +608,8 @@
 
 .social {
     text-align: center;
-
+    margin: 80px;
+    margin-bottom: 10px;
 }
 
 .social-title {
@@ -602,7 +622,8 @@
     text-align: center;
     margin-top: 50px;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     flex-direction: row;
     margin-top: 64px;
