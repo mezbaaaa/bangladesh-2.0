@@ -2,7 +2,7 @@
 
 /* font-family: "Fira Sans", serif; */
 *{
-    margin: 1px;
+    margin: 0px;
 }
 .title-p {
     display: flex;
@@ -363,6 +363,10 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: left;
+    /* margin-top: 56px; */
+}
+.news-a{
+    margin-top: 12px;
 }
 
 .news-time {
@@ -373,6 +377,7 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 12px;
 }
 
 .news-desc {
@@ -383,6 +388,7 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 12px;
 }
 
 .news-btn {
@@ -398,6 +404,7 @@
     text-align: left;
     border: none;
     cursor: pointer;
+    margin-top: 45px;
 }
 
 .donate-titale {
